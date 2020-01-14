@@ -1,7 +1,8 @@
 import React from 'react';
+import { ContainerItemHeader } from './Styles';
 
 export default function ItemHeader({item}) {
   return (
-    <>{item.name}</>
+    <ContainerItemHeader>{item.name}</ContainerItemHeader>
   );
 }
